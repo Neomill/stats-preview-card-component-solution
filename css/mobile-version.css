@@ -1,0 +1,19 @@
+@media (max-width:375px){
+
+    :root{
+        font-size: 90%;
+    }
+
+    .card{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .card__figure{
+        order: -1;
+    }
+
+}
+
+
+

@@ -1,0 +1,41 @@
+@media (max-width:730px){
+
+
+    :root{
+        font-size: 90%;
+    }
+
+    .card--left{
+        padding: 13%;
+    }
+    
+
+    .card__title{
+        font-size: 1.5625rem;
+        margin-bottom: 1.625rem;
+    }
+
+        
+    .card__stack p:first-child{
+        font-size: 1.25rem;
+    }
+
+    .card__stack p:nth-child(2){
+
+        font-size: 0.8rem;
+    }
+
+}
+@media (max-width:570px){
+    .card{
+        text-align: center;
+    }
+
+    .card__stack{
+        flex-direction: column;
+    }
+
+    .card__stack span:first-child, .card__stack span:nth-child(2){
+        margin-bottom: 20px;
+    }
+}
